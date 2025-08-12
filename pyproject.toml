@@ -1,0 +1,17 @@
+[project]
+name = "ErisPulse-InfoQuery"
+version = "1.0.0"
+description = "信息统计查询模块，用于查询InfoStats收集的统计数据"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [ { name = "wsu2059q", email = "wsu2059@qq.com" } ]
+
+dependencies = [
+]
+
+[project.urls]
+"homepage" = "https://github.com/wsu2059q/ErisPulse-InfoQuery"
+
+[project.entry-points."erispulse.module"]
+"InfoQuery" = "ErisPulse_InfoQuery:Main"
